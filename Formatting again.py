@@ -51,3 +51,11 @@ for i in range(len(questions_array)-1):
     questions_array[i]+="?"
 for i in range(len(questions_array)):
     print(questions_array[i])
+
+next_exercise("TOO MANY T'S!")
+
+turtle_sentence = "There are two little terrific turtles in the tiny truck trailer."
+
+print(turtle_sentence.count("t"))
+
+next_exercise
