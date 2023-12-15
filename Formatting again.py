@@ -45,17 +45,24 @@ print((hayden_string + ' ')*4)
 next_exercise("Huh? -------- Huh?")
 
 questions = "Where now? Who now? When now?"
-questions_array = questions.split("? ")
-
-for i in range(len(questions_array)-1):
-    questions_array[i]+="?"
-for i in range(len(questions_array)):
-    print(questions_array[i])
+questions_list = questions.split("? ")
+print(questions_list[0])
+print(questions_list[1])
+print(questions_list[2])
 
 next_exercise("TOO MANY T'S!")
 
 turtle_sentence = "There are two little terrific turtles in the tiny truck trailer."
 
-print(turtle_sentence.count("t"))
+print(turtle_sentence.count("t"), "t's")
 
-next_exercise
+next_exercise('"We put the "S" in comfort!" - Sketchers')
+
+team_i_cant_make_fun_of = "Soddy Daisy Soccer"
+# Because I don't know how good they are
+
+print(team_i_cant_make_fun_of.find("z"))
+
+next_exercise("W ne t gt ray")
+
+print("Hello, we need to start getting ready."[5::2])
